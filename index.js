@@ -1,4 +1,4 @@
-c = 1
+var c = 1
 function add(a, b) {
   c = a+b
   return(c)
