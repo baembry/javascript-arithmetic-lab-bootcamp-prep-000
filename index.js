@@ -10,13 +10,17 @@ function subtract(a, b) {
 function multiply(a, b) {
   return(a*b)
 }
-  
+function divide(a, b) {
+  return(a/b)
+}
+function inc(n) {
+  return(n+1)
+}
+function dec(n) {
+  return(n - 1)
+}
+
   /*
-
-
-it('multiply(a, b) multiplies two numbers and returns the result', function() {
-  expect(multiply(a, b)).toEqual(a * b)
-})
 
 it('divide(a, b) divides a by b and returns the result', function() {
 
