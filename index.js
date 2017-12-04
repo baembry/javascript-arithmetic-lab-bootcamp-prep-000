@@ -1,5 +1,6 @@
+c = 1
 function add(a, b) {
-  var c = a+b
+  c = a+b
   return(c)
 }
 function subtract(a, b) {
