@@ -1,4 +1,8 @@
-  function add(a, b) {
+function add(a, b) {
+  var c = a+b
+  return(c)
+}
+  /*function add(a, b) {
     a+b
     return(a+b)
   }
