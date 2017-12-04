@@ -20,21 +20,11 @@ function inc(n) {
 function dec(n) {
   return(n - 1)
 }
-
+function makeInt(n) {
+  return(parseInt(n, 10))
+}
   /*
 
-it('divide(a, b) divides a by b and returns the result', function() {
-
-  expect(divide(a, b)).toEqual(a / b)
-})
-
-it('inc(n) increments n and returns the result', function() {
-  expect(inc(a)).toEqual(a + 1)
-})
-
-it('dec(n) decrements n and returns the result', function() {
-  expect(dec(a)).toEqual(a - 1)
-})
 
 describe('makeInt(n)', function() {
   it('parses n as an integer and returns the parsed integer', function() {
